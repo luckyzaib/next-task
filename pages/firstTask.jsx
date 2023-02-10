@@ -20,7 +20,7 @@ const firstTask = () => {
     if (_entries?.length > 0) {
       setEntries(_entries);
     } else {
-      setError("No record found");
+      setError("No records");
     }
   };
 
